@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		863C82221EBA287500B02489 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863C82211EBA287500B02489 /* AppDelegate.swift */; };
+		863C82241EBA287500B02489 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863C82231EBA287500B02489 /* MasterViewController.swift */; };
+		863C82271EBA287500B02489 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 863C82251EBA287500B02489 /* Main.storyboard */; };
+		863C82291EBA287500B02489 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 863C82281EBA287500B02489 /* Assets.xcassets */; };
+		863C822C1EBA287500B02489 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 863C822A1EBA287500B02489 /* LaunchScreen.storyboard */; };
+		863C82371EBA287600B02489 /* Multi_HLOP_number_systems_for_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863C82361EBA287600B02489 /* Multi_HLOP_number_systems_for_IOSTests.swift */; };
+		863C82421EBA287600B02489 /* Multi_HLOP_number_systems_for_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863C82411EBA287600B02489 /* Multi_HLOP_number_systems_for_IOSUITests.swift */; };
+		863C82501EBA289E00B02489 /* worker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863C824F1EBA289E00B02489 /* worker.swift */; };
+		863C82581EBA387300B02489 /* preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 863C82571EBA387300B02489 /* preview.png */; };
+		865F80781ED5F225000278D1 /* GCDBlackBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F80771ED5F225000278D1 /* GCDBlackBox.swift */; };
+		86E061AA1EBB3BC700510F9A /* CalculationAndTranslationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E061A91EBB3BC700510F9A /* CalculationAndTranslationViewController.swift */; };
+		86E061AC1EBB3BE400510F9A /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E061AB1EBB3BE400510F9A /* settingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		863C82331EBA287600B02489 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 863C82161EBA287500B02489 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 863C821D1EBA287500B02489;
+			remoteInfo = "Multi-HLOP number systems for IOS";
+		};
+		863C823E1EBA287600B02489 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 863C82161EBA287500B02489 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 863C821D1EBA287500B02489;
+			remoteInfo = "Multi-HLOP number systems for IOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		863C821E1EBA287500B02489 /* Multi-HLOP number systems for IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multi-HLOP number systems for IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		863C82211EBA287500B02489 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		863C82231EBA287500B02489 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		863C82261EBA287500B02489 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		863C82281EBA287500B02489 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		863C822B1EBA287500B02489 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		863C822D1EBA287500B02489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		863C82321EBA287600B02489 /* Multi-HLOP number systems for IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multi-HLOP number systems for IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		863C82361EBA287600B02489 /* Multi_HLOP_number_systems_for_IOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multi_HLOP_number_systems_for_IOSTests.swift; sourceTree = "<group>"; };
+		863C82381EBA287600B02489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		863C823D1EBA287600B02489 /* Multi-HLOP number systems for IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multi-HLOP number systems for IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		863C82411EBA287600B02489 /* Multi_HLOP_number_systems_for_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multi_HLOP_number_systems_for_IOSUITests.swift; sourceTree = "<group>"; };
+		863C82431EBA287600B02489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		863C824F1EBA289E00B02489 /* worker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = worker.swift; sourceTree = "<group>"; };
+		863C82571EBA387300B02489 /* preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preview.png; sourceTree = "<group>"; };
+		865F80771ED5F225000278D1 /* GCDBlackBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDBlackBox.swift; sourceTree = "<group>"; };
+		86E061A91EBB3BC700510F9A /* CalculationAndTranslationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculationAndTranslationViewController.swift; sourceTree = "<group>"; };
+		86E061AB1EBB3BE400510F9A /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		863C821B1EBA287500B02489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863C822F1EBA287600B02489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863C823A1EBA287600B02489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		863C82151EBA287500B02489 = {
+			isa = PBXGroup;
+			children = (
+				863C82201EBA287500B02489 /* Multi-HLOP number systems for IOS */,
+				863C82351EBA287600B02489 /* Multi-HLOP number systems for IOSTests */,
+				863C82401EBA287600B02489 /* Multi-HLOP number systems for IOSUITests */,
+				863C821F1EBA287500B02489 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		863C821F1EBA287500B02489 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				863C821E1EBA287500B02489 /* Multi-HLOP number systems for IOS.app */,
+				863C82321EBA287600B02489 /* Multi-HLOP number systems for IOSTests.xctest */,
+				863C823D1EBA287600B02489 /* Multi-HLOP number systems for IOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		863C82201EBA287500B02489 /* Multi-HLOP number systems for IOS */ = {
+			isa = PBXGroup;
+			children = (
+				863C82211EBA287500B02489 /* AppDelegate.swift */,
+				863C82231EBA287500B02489 /* MasterViewController.swift */,
+				86E061AB1EBB3BE400510F9A /* settingsViewController.swift */,
+				86E061A91EBB3BC700510F9A /* CalculationAndTranslationViewController.swift */,
+				865F80771ED5F225000278D1 /* GCDBlackBox.swift */,
+				863C82251EBA287500B02489 /* Main.storyboard */,
+				863C824F1EBA289E00B02489 /* worker.swift */,
+				863C82281EBA287500B02489 /* Assets.xcassets */,
+				863C822A1EBA287500B02489 /* LaunchScreen.storyboard */,
+				863C82571EBA387300B02489 /* preview.png */,
+				863C822D1EBA287500B02489 /* Info.plist */,
+			);
+			path = "Multi-HLOP number systems for IOS";
+			sourceTree = "<group>";
+		};
+		863C82351EBA287600B02489 /* Multi-HLOP number systems for IOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				863C82361EBA287600B02489 /* Multi_HLOP_number_systems_for_IOSTests.swift */,
+				863C82381EBA287600B02489 /* Info.plist */,
+			);
+			path = "Multi-HLOP number systems for IOSTests";
+			sourceTree = "<group>";
+		};
+		863C82401EBA287600B02489 /* Multi-HLOP number systems for IOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				863C82411EBA287600B02489 /* Multi_HLOP_number_systems_for_IOSUITests.swift */,
+				863C82431EBA287600B02489 /* Info.plist */,
+			);
+			path = "Multi-HLOP number systems for IOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		863C821D1EBA287500B02489 /* Multi-HLOP number systems for IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 863C82461EBA287600B02489 /* Build configuration list for PBXNativeTarget "Multi-HLOP number systems for IOS" */;
+			buildPhases = (
+				863C821A1EBA287500B02489 /* Sources */,
+				863C821B1EBA287500B02489 /* Frameworks */,
+				863C821C1EBA287500B02489 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Multi-HLOP number systems for IOS";
+			productName = "Multi-HLOP number systems for IOS";
+			productReference = 863C821E1EBA287500B02489 /* Multi-HLOP number systems for IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		863C82311EBA287600B02489 /* Multi-HLOP number systems for IOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 863C82491EBA287600B02489 /* Build configuration list for PBXNativeTarget "Multi-HLOP number systems for IOSTests" */;
+			buildPhases = (
+				863C822E1EBA287600B02489 /* Sources */,
+				863C822F1EBA287600B02489 /* Frameworks */,
+				863C82301EBA287600B02489 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				863C82341EBA287600B02489 /* PBXTargetDependency */,
+			);
+			name = "Multi-HLOP number systems for IOSTests";
+			productName = "Multi-HLOP number systems for IOSTests";
+			productReference = 863C82321EBA287600B02489 /* Multi-HLOP number systems for IOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		863C823C1EBA287600B02489 /* Multi-HLOP number systems for IOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 863C824C1EBA287600B02489 /* Build configuration list for PBXNativeTarget "Multi-HLOP number systems for IOSUITests" */;
+			buildPhases = (
+				863C82391EBA287600B02489 /* Sources */,
+				863C823A1EBA287600B02489 /* Frameworks */,
+				863C823B1EBA287600B02489 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				863C823F1EBA287600B02489 /* PBXTargetDependency */,
+			);
+			name = "Multi-HLOP number systems for IOSUITests";
+			productName = "Multi-HLOP number systems for IOSUITests";
+			productReference = 863C823D1EBA287600B02489 /* Multi-HLOP number systems for IOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		863C82161EBA287500B02489 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Эльдар Дамиров";
+				TargetAttributes = {
+					863C821D1EBA287500B02489 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AUWER2S3N2;
+						ProvisioningStyle = Automatic;
+					};
+					863C82311EBA287600B02489 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AUWER2S3N2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 863C821D1EBA287500B02489;
+					};
+					863C823C1EBA287600B02489 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AUWER2S3N2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 863C821D1EBA287500B02489;
+					};
+				};
+			};
+			buildConfigurationList = 863C82191EBA287500B02489 /* Build configuration list for PBXProject "Multi-HLOP number systems for IOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 863C82151EBA287500B02489;
+			productRefGroup = 863C821F1EBA287500B02489 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				863C821D1EBA287500B02489 /* Multi-HLOP number systems for IOS */,
+				863C82311EBA287600B02489 /* Multi-HLOP number systems for IOSTests */,
+				863C823C1EBA287600B02489 /* Multi-HLOP number systems for IOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		863C821C1EBA287500B02489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863C82581EBA387300B02489 /* preview.png in Resources */,
+				863C822C1EBA287500B02489 /* LaunchScreen.storyboard in Resources */,
+				863C82291EBA287500B02489 /* Assets.xcassets in Resources */,
+				863C82271EBA287500B02489 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863C82301EBA287600B02489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863C823B1EBA287600B02489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		863C821A1EBA287500B02489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E061AC1EBB3BE400510F9A /* settingsViewController.swift in Sources */,
+				86E061AA1EBB3BC700510F9A /* CalculationAndTranslationViewController.swift in Sources */,
+				863C82241EBA287500B02489 /* MasterViewController.swift in Sources */,
+				863C82221EBA287500B02489 /* AppDelegate.swift in Sources */,
+				865F80781ED5F225000278D1 /* GCDBlackBox.swift in Sources */,
+				863C82501EBA289E00B02489 /* worker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863C822E1EBA287600B02489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863C82371EBA287600B02489 /* Multi_HLOP_number_systems_for_IOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863C82391EBA287600B02489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863C82421EBA287600B02489 /* Multi_HLOP_number_systems_for_IOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		863C82341EBA287600B02489 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 863C821D1EBA287500B02489 /* Multi-HLOP number systems for IOS */;
+			targetProxy = 863C82331EBA287600B02489 /* PBXContainerItemProxy */;
+		};
+		863C823F1EBA287600B02489 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 863C821D1EBA287500B02489 /* Multi-HLOP number systems for IOS */;
+			targetProxy = 863C823E1EBA287600B02489 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		863C82251EBA287500B02489 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				863C82261EBA287500B02489 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		863C822A1EBA287500B02489 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				863C822B1EBA287500B02489 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		863C82441EBA287600B02489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		863C82451EBA287600B02489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		863C82471EBA287600B02489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AUWER2S3N2;
+				INFOPLIST_FILE = "Multi-HLOP number systems for IOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Printf32.Multi-HLOP-number-systems-for-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		863C82481EBA287600B02489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AUWER2S3N2;
+				INFOPLIST_FILE = "Multi-HLOP number systems for IOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Printf32.Multi-HLOP-number-systems-for-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		863C824A1EBA287600B02489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AUWER2S3N2;
+				INFOPLIST_FILE = "Multi-HLOP number systems for IOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Printf32.Multi-HLOP-number-systems-for-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multi-HLOP number systems for IOS.app/Multi-HLOP number systems for IOS";
+			};
+			name = Debug;
+		};
+		863C824B1EBA287600B02489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AUWER2S3N2;
+				INFOPLIST_FILE = "Multi-HLOP number systems for IOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Printf32.Multi-HLOP-number-systems-for-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multi-HLOP number systems for IOS.app/Multi-HLOP number systems for IOS";
+			};
+			name = Release;
+		};
+		863C824D1EBA287600B02489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = AUWER2S3N2;
+				INFOPLIST_FILE = "Multi-HLOP number systems for IOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Printf32.Multi-HLOP-number-systems-for-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Multi-HLOP number systems for IOS";
+			};
+			name = Debug;
+		};
+		863C824E1EBA287600B02489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = AUWER2S3N2;
+				INFOPLIST_FILE = "Multi-HLOP number systems for IOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Printf32.Multi-HLOP-number-systems-for-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Multi-HLOP number systems for IOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		863C82191EBA287500B02489 /* Build configuration list for PBXProject "Multi-HLOP number systems for IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863C82441EBA287600B02489 /* Debug */,
+				863C82451EBA287600B02489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		863C82461EBA287600B02489 /* Build configuration list for PBXNativeTarget "Multi-HLOP number systems for IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863C82471EBA287600B02489 /* Debug */,
+				863C82481EBA287600B02489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		863C82491EBA287600B02489 /* Build configuration list for PBXNativeTarget "Multi-HLOP number systems for IOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863C824A1EBA287600B02489 /* Debug */,
+				863C824B1EBA287600B02489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		863C824C1EBA287600B02489 /* Build configuration list for PBXNativeTarget "Multi-HLOP number systems for IOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863C824D1EBA287600B02489 /* Debug */,
+				863C824E1EBA287600B02489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 863C82161EBA287500B02489 /* Project object */;
+}
